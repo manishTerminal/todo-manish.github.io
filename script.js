@@ -13,8 +13,6 @@ form.addEventListener("submit", (e) => {
 	item.innerText = input.value
 	item.classList.add("list")
 
-	console.log(item)
-
 	orderedlist.appendChild(item)
 
 	input.value = ""
